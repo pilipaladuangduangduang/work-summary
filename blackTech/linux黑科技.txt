@@ -1,8 +1,0 @@
-whatis 简述命令，man 详细说明
-
-《which 和 whereis》https://superuser.com/questions/40301
-
-
-
-
-
