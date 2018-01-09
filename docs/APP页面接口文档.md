@@ -10,7 +10,7 @@
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/add POST
+http://120.26.4.86/cms/app/add POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -43,7 +43,7 @@ http://120.26.4.86/cms/App/add POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/copy POST
+http://120.26.4.86/cms/app/copy POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -73,7 +73,7 @@ http://120.26.4.86/cms/App/copy POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/update POST
+http://120.26.4.86/cms/app/update POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -106,7 +106,7 @@ http://120.26.4.86/cms/App/update POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/publish POST
+http://120.26.4.86/cms/app/publish POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -140,7 +140,7 @@ http://120.26.4.86/cms/App/publish POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/undo/publish POST
+http://120.26.4.86/cms/app/undo/publish POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -170,7 +170,7 @@ http://120.26.4.86/cms/App/undo/publish POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/rm POST
+http://120.26.4.86/cms/app/rm POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -200,7 +200,7 @@ http://120.26.4.86/cms/App/rm POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/undo/rm POST
+http://120.26.4.86/cms/app/undo/rm POST
 
 ### 请求参数↓↓↓↓↓↓↓
 
@@ -230,7 +230,7 @@ http://120.26.4.86/cms/App/undo/rm POST
 
 ### 接口地址↓↓↓↓↓↓↓
 
-http://120.26.4.86/cms/App/list GET
+http://120.26.4.86/cms/app/list GET
 
 ### 请求参数↓↓↓↓↓↓↓
 
