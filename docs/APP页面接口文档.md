@@ -260,6 +260,10 @@ http://120.26.4.86/cms/app/undo/rm POST
 
 http://120.26.4.86/cms/app/list GET
 
+### 接口开发进度↓↓↓↓↓↓↓
+
+[DEV](#开发状态字典表)
+
 ### 请求参数↓↓↓↓↓↓↓
 
 无
@@ -270,7 +274,7 @@ http://120.26.4.86/cms/app/list GET
 | :----------------- | :----------------- | :----------------- 
 | resultCode         | int                | 响应码，详细信息请点[这里](#返回码字典表)
 | resultMsg          | string             | 响应信息
-| data               | object             | [HomeListModel](#homelistmodel)
+| data               | object             | [AppListModel](#applistmodel)
 
 ---
 
@@ -307,24 +311,18 @@ XxxModel 指的是后端返回给前端的数据模型
 | editing            | array              | 编辑区域的App页面列表：[[HomeModel](#homemodel), HomeModel...]
 | running            | array              | 已发布的App页面列表（历史列表）：[[HomeModel](#homemodel), HomeModel...]
 
-### HomeModel
+### AppModel
 
 | 名称               | 类型               | 描述
 | :----------------- | :----------------- | :----------------- 
 | id                 | string             | App页面的唯一ID
 | name               | string             | App页面名称
-| color              | string             | 文字颜色
-| style              | string             | 展示样式
-| cover              | string             | 展示图片
 | uri                | string             | 具体的内容，是一个大json
 | type               | string             | App页面类型
-| brief              | string             | App页面描述
 | remark             | string             | 备注
-| switch             | string             | 开关
 | version_min        | string             | 起始版本
 | version_max        | string             | 版本截止
 | channel            | array              | 数组类型，即使是单个渠道也是返回一个数组
-| top_time           | datetime           | 置顶时间
 | publish_user       | string             | 发布人
 | publish_time       | datetime           | 发布时间
 | create_user        | string             | 创建者
