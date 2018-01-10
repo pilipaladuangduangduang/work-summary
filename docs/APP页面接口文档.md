@@ -250,7 +250,7 @@ http://120.26.4.86/cms/app/undo/rm POST
 
 ### 描述↓↓↓↓↓↓↓
 
-展示编辑中、定时发布中、已发布的、特殊的App页面们
+展示编辑中、定时发布中、线网环境、线网环境（特殊）、历史版本的App页面们
 
 ### 注意事项↓↓↓↓↓↓↓
 
@@ -306,10 +306,11 @@ XxxModel 指的是后端返回给前端的数据模型
 
 | 名称               | 类型               | 描述
 | :----------------- | :----------------- | :----------------- 
-| special            | array              | 特殊App页面：[[HomeModel](#homemodel), HomeModel...]
-| waiting            | array              | 定时发布的App页面列表：[[HomeModel](#homemodel), HomeModel...]
-| editing            | array              | 编辑区域的App页面列表：[[HomeModel](#homemodel), HomeModel...]
-| running            | array              | 已发布的App页面列表（历史列表）：[[HomeModel](#homemodel), HomeModel...]
+| special            | array              | 特殊发布的App页面：[[AppModel](#appmodel), AppModel...]
+| waiting            | array              | 定时发布的App页面列表：[[AppModel](#appmodel), AppModel...]
+| editing            | array              | 编辑区域的App页面列表：[[AppModel](#appmodel), AppModel...]
+| running            | array              | 非特殊发布的App页面列表）：[[AppModel](#appmodel), AppModel...]
+| history            | array              | 历史发布的App页面列表：[[AppModel](#appmodel), AppModel...]
 
 ### AppModel
 
@@ -327,9 +328,5 @@ XxxModel 指的是后端返回给前端的数据模型
 | publish_time       | datetime           | 发布时间
 | create_user        | string             | 创建者
 | modify_user        | string             | 修改者
-| create_time        | string             | 创建时间
-| modify_time        | string             | 修改时间
-
-
-
-
+| create_time        | datetime           | 创建时间
+| modify_time        | datetime           | 修改时间
