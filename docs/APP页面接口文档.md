@@ -308,10 +308,11 @@ XxxModel 指的是后端返回给前端的数据模型
 
 | 名称               | 类型               | 描述
 | :----------------- | :----------------- | :----------------- 
-| special            | array              | 特殊发布的App页面：[[AppModel](#appmodel), AppModel...]
-| waiting            | array              | 定时发布的App页面列表：[[AppModel](#appmodel), AppModel...]
+| special_running    | array              | 特殊发布的App页面：[[AppModel](#appmodel), AppModel...]
+| special_waiting    | array              | 特殊定时发布的App页面列表：[[AppModel](#appmodel), AppModel...]
 | editing            | array              | 编辑区域的App页面列表：[[AppModel](#appmodel), AppModel...]
-| running            | array              | 非特殊发布的App页面列表）：[[AppModel](#appmodel), AppModel...]
+| waiting            | array              | 定时发布的App页面列表：[[AppModel](#appmodel), AppModel...]
+| running            | array              | 发布的App页面列表）：[[AppModel](#appmodel), AppModel...]
 | history            | array              | 历史发布的App页面列表：[[AppModel](#appmodel), AppModel...]
 
 ### AppModel
@@ -321,7 +322,6 @@ XxxModel 指的是后端返回给前端的数据模型
 | id                 | string             | App页面的唯一ID
 | name               | string             | App页面名称
 | uri                | string             | 具体的内容，是一个大json
-| type               | string             | App页面类型
 | remark             | string             | 备注
 | version_min        | string             | 起始版本
 | version_max        | string             | 版本截止
