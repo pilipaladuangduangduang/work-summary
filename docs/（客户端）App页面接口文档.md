@@ -29,7 +29,7 @@ http://120.26.4.86/app/home/bottom GET
 | :----------------- | :----------------- | :----------------- 
 | resultCode         | int                | 响应码，详细信息请点[这里](#返回码字典表)
 | resultMsg          | string             | 响应信息
-| data               | object             | [BottomModel](#bottommodel)
+| data               | string             | {"title": "","type":"container","children":...}
 
 ---
 
@@ -57,11 +57,4 @@ XxxForm 指的是前端提交给后端的数据模型
 
 XxxModel 指的是后端返回给前端的数据模型
 
-### BottomModel
 
-| 名称               | 类型               | 描述
-| :----------------- | :----------------- | :----------------- 
-| id                 | string             | ID
-| name               | string             | 名称
-| cover              | string             | 背景图？
-| content            | string             | 页面详细数据
