@@ -65,7 +65,7 @@ http://120.26.4.86/cms/app/copy POST
 | :----------------- | :----------------- | :----------------- 
 | resultCode         | int                | 响应码，详细信息请点[这里](#返回码字典表)
 | resultMsg          | string             | 响应信息
-| data               | object             | null
+| data               | string             | 复制后的页面ID
 
 ---
 
