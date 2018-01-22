@@ -29,7 +29,7 @@ http://120.26.4.86/app/home/bottom GET
 | :----------------- | :----------------- | :----------------- 
 | resultCode         | int                | 响应码，详细信息请点[这里](#返回码字典表)
 | resultMsg          | string             | 响应信息
-| data               | string             | {"title": "","type":"container","children":...}
+| result             | string             | {"title": "","type":"container","children":...}
 
 ---
 
