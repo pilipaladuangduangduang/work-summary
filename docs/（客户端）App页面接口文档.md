@@ -20,7 +20,7 @@ http://120.26.4.86/app/home/bottom GET
 
 | 名称               | 类型               | 必填               | 描述
 | :----------------- | :----------------- | :----------------- | :----------------- 
-| type               | int                | yes                | 底部tab的类型：watch、listen、vip、myself
+| type               | string             | yes                | 底部tab的类型：watch、listen、vip、myself
 
 
 ### 响应结果↓↓↓↓↓↓↓
@@ -63,8 +63,5 @@ XxxModel 指的是后端返回给前端的数据模型
 | :----------------- | :----------------- | :----------------- 
 | id                 | string             | ID
 | name               | string             | 名称
-| brief              | string             | 描述
-| remark             | string             | 备注
-| cover              | string             | 图片
-| uri                | string             | 推荐位具体的内容，是一个大json字符串
-
+| cover              | string             | 背景图？
+| content            | string             | 页面详细数据
