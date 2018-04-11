@@ -6,6 +6,18 @@
 
 ## 很有用MySQL命令汇总：
 
+### 查询最近改变过的表（用于上线前的表结构整理）
+
+```
+SELECT 
+  table_name
+FROM
+  information_schema.TABLES 
+WHERE table_schema = '库命' 
+ORDER BY CREATE_TIME DESC 
+LIMIT 10
+```
+
 ### 查询某个字段属于哪张表
 
 ```
