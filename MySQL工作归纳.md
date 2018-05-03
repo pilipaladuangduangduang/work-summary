@@ -90,3 +90,9 @@ select id from z_group_topic where is_deleted = 0 and id = #resId# for update
 # 从hehe表中查询name，如果name为null，就用 小明来当做默认值
 select ifnull(name, '小明') from hehe
 ```
+
+### MySQL 两表 join 用不了索引
+
+MySQL 两表关联字段的字符集不同时会导致 join 时用不了索引，当数据量多的时候查询就会很慢
+
+详情参考这边文章：https://blog.csdn.net/everda/article/details/77476716
